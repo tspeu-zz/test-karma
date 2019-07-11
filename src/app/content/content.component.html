@@ -1,3 +1,7 @@
-<p>
-  content works!
-</p>
+<p> content works!</p>
+
+<div data= "home" *ngFor="let home of homes$ | async">
+  <div data="title"> {{ home.title}} </div>
+  <div data="location"> {{ home.location}} </div>
+  <div data="image"><img src= "{{ home.image}}"  with="200"/> </div>
+</div>

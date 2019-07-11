@@ -1,4 +1,5 @@
 # Base6
+https://medium.com/letsboot/angular-end-to-end-testing-c3b9950fdd41
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
@@ -19,8 +20,13 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
-
+ng e2e --capabilities.chromeOptions.args="--headless"
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+https://github.com/ionic-team/ionic-cli/issues/2922
+npm install ws@3.3.2 --save-dev --save-exact
+ajv@^6.9.1 npm i
+
+
 
 ## Further help
 

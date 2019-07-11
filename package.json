@@ -33,9 +33,11 @@
     "@types/jasmine": "^2.5.41",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "10.5.1",
+    "ajv": "6.10.1",
     "codelyzer": "~4.2.1",
-    "jasmine": "3.4.0",
+    "jasmine": "2.99.0",
     "jasmine-core": "~2.99.1",
+    "jasmine-es6-spies": "0.0.4",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "^4.1.0",
     "karma-chrome-launcher": "~2.2.0",
@@ -43,8 +45,10 @@
     "karma-jasmine": "~1.1.1",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "5.4.1",
+    "selenium-webdriver": "^4.0.0-alpha.4",
     "ts-node": "7.0.0",
     "tslint": "5.10.0",
-    "typescript": "~2.7.2"
+    "typescript": "~2.7.2",
+    "ws": "3.3.2"
   }
 }
